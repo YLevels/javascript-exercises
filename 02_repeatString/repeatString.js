@@ -6,6 +6,9 @@ while (i < num) {
     result += string;
     i++;
 }
+if (num < 0) {
+    result = "ERROR";
+}
     return result;
 };
 
